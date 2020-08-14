@@ -10,7 +10,7 @@ apps = Flask('covid')
 
 @apps.route('/')
 def main():
-    return """<h1>Working</h1><a href='/Help'>Help</a><br><a href='/Country'>Stasus covid</a><br><a href='/list_Country'>list Country covid</a>"""
+    return "<h1>Working</h1><a href='/Help'>Help</a><br><a href='/Country'>Stasus covid</a><br><a href='/list_Country'>list Country covid</a>"
 
 @apps.route('/list_Country')
 def all_Country():
